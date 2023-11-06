@@ -123,6 +123,7 @@ NODE_CLASS_MAPPINGS = {
 
     "FaceDetailer": FaceDetailer,
     "FaceDetailerPipe": FaceDetailerPipe,
+    "MaskDetailerPipe": MaskDetailerPipe,
 
     "ToDetailerPipe": ToDetailerPipe,
     "ToDetailerPipeSDXL": ToDetailerPipeSDXL,
@@ -206,9 +207,6 @@ NODE_CLASS_MAPPINGS = {
     "SEGSSwitch": GeneralSwitch,
     "ImpactSwitch": GeneralSwitch,
     "ImpactInversedSwitch": GeneralInversedSwitch,
-
-    # "SaveConditioning": SaveConditioning,
-    # "LoadConditioning": LoadConditioning,
 
     "ImpactWildcardProcessor": ImpactWildcardProcessor,
     "ImpactWildcardEncode": ImpactWildcardEncode,
